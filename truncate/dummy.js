@@ -6,3 +6,5 @@ function truncateString(str, num) {
     return str;
   }
 }
+
+truncateString("A-", 1)// => A...

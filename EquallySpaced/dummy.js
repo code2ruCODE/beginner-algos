@@ -17,4 +17,4 @@ function evenlySpaced(first, second, last) {
   return true;
 }
 
-evenlySpaced(4, 6, 3);
+evenlySpaced(4, 6, 3) // → false

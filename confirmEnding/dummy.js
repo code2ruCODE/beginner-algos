@@ -7,3 +7,5 @@ function confirmEnding(str, target) {
     return false;
   }
 }
+
+confirmEnding("Congratulation", "on")// => true 
