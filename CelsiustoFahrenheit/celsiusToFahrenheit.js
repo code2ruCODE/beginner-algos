@@ -4,7 +4,7 @@
 
 function convertToF(celsius) {
   
-    return (celsius * (9 / 5) + 32);
 }
 
-module.exports = convertToF
+convertToF(-30) // -> -22
+convertToF(-10) // -> 14
