@@ -2,9 +2,8 @@
 //The function converts convert from Celsius to Fahrenheit.
 //The formular to convert to fahrenheit is "temperature in Celsius times 9 / 5, plus 32".
 
-function convertToF(celsius) {
-  
+function convertToF(celsius) { 
+    
+     return( 9*celsius/5 + 32);
 }
-
-convertToF(-30) // -> -22
-convertToF(-10) // -> 14
+console.log(convertToF(-32));
